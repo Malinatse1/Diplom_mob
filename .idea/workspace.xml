@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="704d9ad6-ca77-42ef-a08f-34602d7e8073" name="Changes" comment="add  article test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/BrowserstackConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/conf.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/selenide/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/android/selenide/SearchTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="704d9ad6-ca77-42ef-a08f-34602d7e8073" name="Changes" comment="add  article test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677516035160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add  article test">
+      <created>1677521270363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677521270363</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

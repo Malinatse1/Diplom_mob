@@ -25,7 +25,7 @@ import static org.codehaus.groovy.runtime.DefaultGroovyMethods.first;
 
 public class SearchTests extends TestBase {
 
-    @DisplayName("Проверка поиска")
+    @DisplayName("Check search")
     @Test
         void searchTest () {
             step("Type search", () -> {
@@ -37,7 +37,7 @@ public class SearchTests extends TestBase {
                             .shouldHave(sizeGreaterThan(0)));
         }
 
-    @DisplayName("Проверка перехода на статью при клике")
+    @DisplayName("Check going to the article")
     @Test
     void goToArticleTest () {
         step("Type search", () -> {
