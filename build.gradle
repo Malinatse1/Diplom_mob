@@ -33,7 +33,8 @@ dependencies {
             "io.qameta.allure:allure-rest-assured:$allureVersion",
             "com.github.javafaker:javafaker:1.0.2",
             "org.junit.jupiter:junit-jupiter:5.9.2",
-            "org.slf4j:slf4j-simple:2.0.0"
+            "org.slf4j:slf4j-simple:1.7.32",
+            'org.aeonbits.owner:owner:1.0.12'
     )
 }
 
