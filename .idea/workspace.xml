@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="704d9ad6-ca77-42ef-a08f-34602d7e8073" name="Changes" comment="add  article test" />
+    <list default="true" id="704d9ad6-ca77-42ef-a08f-34602d7e8073" name="Changes" comment="add  article test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/EmulatorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/EmulatorDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/emulator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/selenide/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/android/selenide/TestBase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,19 +69,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/QA GURU/HW_21_mobile/readme_resources",
+    "last_opened_file_path": "C:/QA GURU/HW_21_mobile/src/test/resources",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\QA GURU\HW_21_mobile\readme_resources" />
       <recent name="C:\QA GURU\HW_21_mobile\src\test\resources" />
+      <recent name="C:\QA GURU\HW_21_mobile\readme_resources" />
       <recent name="C:\QA GURU\HW_21_mobile" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\QA GURU\HW_21_mobile\readme_resources" />
       <recent name="C:\QA GURU\HW_21_mobile\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="config" />
+      <recent name="drivers" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.SearchTests">
@@ -276,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678168304437</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add  article test">
+      <created>1678168773589</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678168773589</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
