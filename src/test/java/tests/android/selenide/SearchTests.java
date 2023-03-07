@@ -71,7 +71,7 @@ public class SearchTests extends TestBase {
                         .shouldBe(visible));
     }
 
-    @DisplayName("Checking the passage of initial screens")
+    @DisplayName("Check the passage of initial screens")
     @Test
     void onboardingTest() {
         step("Open started page", () -> {
