@@ -54,7 +54,7 @@
 1. Для запуска сборки необходимо открыть  <a target="_blank" href="https://jenkins.autotests.cloud/job/HW_21_mobile/">проект</a> . 
 2. Указать значения параметров и нажать кнопку ```Собрать```.
 
-![This is an image](/readme_resources/Jenkins dashboard.png)
+![This is an image](/readme_resources/Jenkins2.png)
 
 3. Результат запуска сборки можно посмотреть в отчёте Allure.
 
