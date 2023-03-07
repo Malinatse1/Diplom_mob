@@ -55,6 +55,9 @@
 ##  Запуск тестов в Jenkins
 1. Для запуска сборки необходимо открыть  <a target="_blank" href="https://jenkins.autotests.cloud/job/HW_21_mobile/">проект</a> . 
 2. Указать значения параметров и нажать кнопку ```Собрать```.
+
+![This is an image](/readme_resources/Jenkins dashboard.png)
+
 3. Результат запуска сборки можно посмотреть в отчёте Allure.
 
 ![](/readme_resources/.png)
@@ -67,28 +70,28 @@
 ###  Основной Дашборд ###
 Для перехода к просмотру отчета в разделе "История сборок" нажать значок "Allure Report", откроется страница с отчетом по прохождению.
 
-![This is an image](/readme_resources/Allure_dashboa.png)
+![This is an image](/readme_resources/Jenkins_allure.png)
 
 ###  Группировка тестов по проверяемому функционалу ###
 
-![This is an image](/readme_resources/Allure_sep%20.png)
+![This is an image](/readme_resources/Jenkins_group_tests.png)
 ##  Уведомления в Telegram с использованием бота
 
 После завершения сборки, Вам будет отправлено уведомление в ```Telegram``` с отчетом о прохождении.
 
-![This is an image](/readme_resources/Telegram_rport.png)
+![This is an image](/readme_resources/Telegram_bot.png)
 
 ## <img width="4%" title="Allure TestOPS" src="readme_resources/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18485)
 ### Основной дашборд
 
 <p align="center">
-  <img src="readme_resources/Allure_TO_dashboard.p" alt="dashboard" width="900">
+  <img src="readme_resources/AllureTestOPs_dashboard.png" alt="dashboard" width="900">
 </p>
 
 ### Список тестов с результатами прогона
 
 <p align="center">
-  <img src="readme_resources/Allure_TO_resus.png" alt="dashboard" width="900">
+  <img src="readme_resources/TOps_steps.png" alt="dashboard" width="900">
 </p>
 
 К каждому тесту в отчете прилагается видео.

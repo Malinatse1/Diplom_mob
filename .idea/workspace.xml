@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="704d9ad6-ca77-42ef-a08f-34602d7e8073" name="Changes" comment="add  article test">
+      <change afterPath="$PROJECT_DIR$/readme_resources/AllureTestOPs_dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Jenkins dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Jenkins_allure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Jenkins_group_tests.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/TOps_steps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/selenide/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/android/selenide/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_resources/Telegram_bot.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_resources/Telegram_bot.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,16 +73,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/QA GURU/HW_21_mobile/src/test/resources",
+    "last_opened_file_path": "C:/QA GURU/HW_21_mobile/readme_resources",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\QA GURU\HW_21_mobile\readme_resources" />
       <recent name="C:\QA GURU\HW_21_mobile\src\test\resources" />
       <recent name="C:\QA GURU\HW_21_mobile" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\QA GURU\HW_21_mobile\readme_resources" />
       <recent name="C:\QA GURU\HW_21_mobile\src\test\resources" />
     </key>
   </component>
@@ -249,7 +258,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678166026481</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add  article test">
+      <created>1678166369796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678166369796</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add  article test">
+      <created>1678166422845</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678166422845</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add  article test">
+      <created>1678167137422</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678167137422</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
