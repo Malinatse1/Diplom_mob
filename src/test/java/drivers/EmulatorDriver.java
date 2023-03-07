@@ -20,7 +20,7 @@ import static org.apache.commons.io.FileUtils.copyInputStreamToFile;
 
 
 public class EmulatorDriver implements WebDriverProvider {
-    static EmulatorConfig config = ConfigFactory.create(EmulatorConfig.class);
+    static EmulatorConfig config = ConfigFactory.create(EmulatorConfig.class, System.getProperties());
 
     public static URL getAppiumServerUrl() {
         try {

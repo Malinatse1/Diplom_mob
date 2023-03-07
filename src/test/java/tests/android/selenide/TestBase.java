@@ -13,7 +13,6 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
-
         switch (System.getProperty("env")) {
             case "android":
                 Configuration.browser = BrowserstackDriver.class.getName();
@@ -22,7 +21,6 @@ public class TestBase {
                 Configuration.browser = EmulatorDriver.class.getName();
                 break;
         }
-
         Configuration.browserSize = null;
         Configuration.timeout = 15000;
         Configuration.pageLoadTimeout = 15000;
@@ -36,10 +34,10 @@ public class TestBase {
 
     @AfterEach
     void addAttachments() {
-        String sessionId = sessionId().toString();
+//        String sessionId = sessionId().toString();
         Attach.pageSource();
         closeWebDriver();
-        Attach.addVideo(sessionId);
+//        Attach.addVideo(sessionId);
     }
 }
 

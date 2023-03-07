@@ -54,6 +54,7 @@ public class SearchTests extends TestBase {
 
 
     @DisplayName("Check going to the article")
+    @Tag("android")
     @Test
     void goToArticleTest () {
         step("Type search", () -> {

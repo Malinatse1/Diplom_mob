@@ -5,7 +5,8 @@ import org.aeonbits.owner.Config;
 @EmulatorConfig.LoadPolicy(EmulatorConfig.LoadType.MERGE)
 @Config.Sources(
         {"system:properties",
-                "classpath:emulator.properties"})
+                "classpath:emulator.properties",
+        })
 public interface EmulatorConfig extends Config {
     @Key("login")
     String login();
@@ -37,8 +38,8 @@ public interface EmulatorConfig extends Config {
     @Key("project")
     String projectName();
 
-    @Key("build")
-    String buildName();
+    @Key("url")
+    String url();
 
     @Key("name")
     String testName();
