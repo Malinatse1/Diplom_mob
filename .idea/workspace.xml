@@ -5,41 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="704d9ad6-ca77-42ef-a08f-34602d7e8073" name="Changes" comment="add  article test">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/draft.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_Report.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_Report.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_TO.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_TO_dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_TO_results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_step .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Android-studio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Browserstack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/GitHub.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Gradle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Idea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/JUnit5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Java.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Jenkins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Jenkins.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Selenide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Selenoid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Telegram_bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/Telegram_report.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/video-browserstack.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/video.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme_resources/wiki_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/selenide/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/android/selenide/SearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/tpl/response.ftl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +66,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/QA GURU/HW_21_mobile",
+    "last_opened_file_path": "C:/QA GURU/HW_21_mobile/src/test/resources",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\QA GURU\HW_21_mobile\src\test\resources" />
       <recent name="C:\QA GURU\HW_21_mobile" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -267,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677521918666</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add  article test">
+      <created>1678165381144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678165381144</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add  article test">
+      <created>1678166026481</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678166026481</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

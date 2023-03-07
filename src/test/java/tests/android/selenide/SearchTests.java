@@ -39,11 +39,10 @@ public class SearchTests extends TestBase {
                         .shouldHave(sizeGreaterThan(0)));
     }
 
-    @DisplayName("Check search with small letter")
+    @DisplayName("Check search with Small letter")
     @Tag("android")
     @Test
     void searchTestWithSmallLetter () {
-        back();
         step("Type search", () -> {
             $(accessibilityId("Search Wikipedia")).click();
             $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("browserStack");
