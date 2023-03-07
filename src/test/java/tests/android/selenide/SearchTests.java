@@ -4,7 +4,6 @@ import java.net.URL;
 import java.util.List;
 import java.util.function.Function;
 import java.net.MalformedURLException;
-
 import com.codeborne.selenide.Condition;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;

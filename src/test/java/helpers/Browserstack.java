@@ -1,7 +1,5 @@
 package helpers;
 
-import org.aeonbits.owner.ConfigFactory;
-
 import static helpers.CustomApiListener.withCustomTemplates;
 import static io.restassured.RestAssured.given;
 import static java.lang.String.format;
