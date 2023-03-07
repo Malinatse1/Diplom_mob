@@ -27,7 +27,6 @@ public class TestBase {
         Configuration.browserSize = null;
         Configuration.timeout = 15000;
         Configuration.pageLoadTimeout = 15000;
-        Configuration.remote = System.getProperty("remote", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
     }
 
     @BeforeEach

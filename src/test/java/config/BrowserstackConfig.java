@@ -12,8 +12,6 @@ import org.aeonbits.owner.Config;
         @Key("password")
         String password();
 
-        @Key("browserstackURL")
-        String browserstackUrl();
 
         @Key("appURL")
         String appUrl();

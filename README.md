@@ -43,7 +43,6 @@
 
 ```gradle clean test = -Denv=emulator```
 
-```gradle clean test = -Denv=real```
 
 2. Получение отчёта: 
 

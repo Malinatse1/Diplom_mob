@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="704d9ad6-ca77-42ef-a08f-34602d7e8073" name="Changes" comment="add  article test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/BrowserstackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/BrowserstackConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/selenide/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/android/selenide/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -324,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678198814210</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add  article test">
+      <created>1678199376907</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678199376907</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
