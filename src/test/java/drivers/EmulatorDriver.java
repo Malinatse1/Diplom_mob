@@ -24,7 +24,7 @@ public class EmulatorDriver implements WebDriverProvider {
 
     public static URL getAppiumServerUrl() {
         try {
-            return new URL("https://user1:1234@selenoid.autotests.cloud/wd/hub");
+            return new URL("http://localhost:4723/wd/hub");
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
