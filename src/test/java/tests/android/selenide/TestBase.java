@@ -10,9 +10,12 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import static com.codeborne.selenide.Selenide.*;
 public class TestBase {
-
+    public static String env = System.getProperty("env");
     @BeforeAll
     static void beforeAll() {
+        if (env == null) {
+            env = "local";
+        }
         switch (System.getProperty("env")) {
             case "android":
                 Configuration.browser = BrowserstackDriver.class.getName();
@@ -34,10 +37,10 @@ public class TestBase {
 
     @AfterEach
     void addAttachments() {
-//        String sessionId = sessionId().toString();
+        String sessionId = sessionId().toString();
         Attach.pageSource();
         closeWebDriver();
-//        Attach.addVideo(sessionId);
+        if (!System.getProperty("env").equals("local")) Attach.addVideo(sessionId);
     }
 }
 
