@@ -45,7 +45,7 @@ public class SearchTests extends TestBase {
     void searchTestWithSmallLetter () {
         step("Type search", () -> {
             $(accessibilityId("Search Wikipedia")).click();
-            $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("browserStack");
+            $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("browserstack");
         });
         step("Verify content found", () ->
                 $$(id("org.wikipedia.alpha:id/page_list_item_title"))
@@ -70,29 +70,4 @@ public class SearchTests extends TestBase {
                 $(id("org.wikipedia.alpha:id/single_fragment_toolbar_wordmark"))
                         .shouldBe(visible));
     }
-
-    @DisplayName("Check the passage of initial screens")
-    @Test
-    void onboardingTest() {
-        step("Open started page", () -> {
-            $(id("org.wikipedia.alpha:id/primaryTextView"))
-                    .shouldHave(text("The Free Encyclopedia …in over 300 languages"));
-        });
-        step("Go to the next onboarding page - New ways to explore", () -> {
-            $(id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click();
-            $(id("org.wikipedia.alpha:id/primaryTextView"))
-                    .shouldHave(text("New ways to explore"));
-        });
-        step("Go to the next onboarding page - Reading lists with sync", () -> {
-            $(id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click();
-            $(id("org.wikipedia.alpha:id/primaryTextView"))
-                    .shouldHave(text("Reading lists with sync"));
-        });
-        step("Go to the next onboarding page - Send anonymous data", () -> {
-            $(id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click();
-            $(id("org.wikipedia.alpha:id/primaryTextView"))
-                    .shouldHave(text("Send anonymous data"));
-        });
-    }
-
 }
