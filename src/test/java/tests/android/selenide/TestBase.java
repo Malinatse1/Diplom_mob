@@ -14,13 +14,13 @@ public class TestBase {
     @BeforeAll
     static void beforeAll() {
         if (env == null) {
-            env = "local";
+            env = "emulator";
         }
         switch (System.getProperty("env")) {
-            case "android":
+            case "browserstack":
                 Configuration.browser = BrowserstackDriver.class.getName();
                 break;
-            case "local":
+            case "emulator":
                 Configuration.browser = EmulatorDriver.class.getName();
                 break;
         }
@@ -40,7 +40,7 @@ public class TestBase {
         String sessionId = sessionId().toString();
         Attach.pageSource();
         closeWebDriver();
-        if (!System.getProperty("env").equals("local")) Attach.addVideo(sessionId);
+        if (!System.getProperty("env").equals("emulator")) Attach.addVideo(sessionId);
     }
 }
 

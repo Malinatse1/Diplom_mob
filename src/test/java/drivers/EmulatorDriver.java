@@ -20,11 +20,11 @@ import static org.apache.commons.io.FileUtils.copyInputStreamToFile;
 
 
 public class EmulatorDriver implements WebDriverProvider {
-    static EmulatorConfig config = ConfigFactory.create(EmulatorConfig.class, System.getProperties());
+    static EmulatorConfig emulatorConfig = ConfigFactory.create(EmulatorConfig.class, System.getProperties());
 
     public static URL getAppiumServerUrl() {
         try {
-            return new URL("http://localhost:4723/wd/hub");
+            return new URL("https://user1:1234@selenoid.autotests.cloud/wd/hub");
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
@@ -39,11 +39,11 @@ public class EmulatorDriver implements WebDriverProvider {
 
         options.setAutomationName(ANDROID_UIAUTOMATOR2)
                 .setPlatformName(ANDROID)
-                .setDeviceName(config.device())
-                .setPlatformVersion(config.osVersion())
+                .setDeviceName(emulatorConfig.device())
+                .setPlatformVersion(emulatorConfig.osVersion())
                 .setApp(getAppPath())
-                .setAppPackage(config.getAppPackage())
-                .setAppActivity(config.getAppActivity());
+                .setAppPackage(emulatorConfig.getAppPackage())
+                .setAppActivity(emulatorConfig.getAppActivity());
 
         return new AndroidDriver(getAppiumServerUrl(), options);
     }
