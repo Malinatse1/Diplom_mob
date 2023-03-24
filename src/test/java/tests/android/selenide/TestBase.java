@@ -10,19 +10,18 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import static com.codeborne.selenide.Selenide.*;
 public class TestBase {
-    public static String env = System.getProperty("env");
+    public static String ENV = System.getProperty("env","emulator");
     @BeforeAll
     static void beforeAll() {
-        if (env == null) {
-            env = "emulator";
-        }
-        switch (System.getProperty("env")) {
+        switch (ENV) {
             case "browserstack":
                 Configuration.browser = BrowserstackDriver.class.getName();
                 break;
             case "emulator":
                 Configuration.browser = EmulatorDriver.class.getName();
                 break;
+            default:
+                throw new RuntimeException("Env " + ENV + " not supported");
         }
         Configuration.browserSize = null;
         Configuration.timeout = 15000;
